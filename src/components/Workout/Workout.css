@@ -1,0 +1,27 @@
+.workout-container img {
+    width: 75%;
+    height: 25%;
+    border-radius: 7px;
+    margin: 20px 30px;
+}
+
+.workout-container {
+    background-color: white;
+    border-radius: 7px;
+}
+
+.info {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.workout-container button {
+    background-color: #5d5fef;
+    color: white;
+    width: 75%;
+    border-radius: 7px;
+    margin: 10px 30px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -5,7 +5,7 @@
         "age": 23,
         "time": 27,
         "name": "Dumbbells",
-        "about": "Dumbbells can be useful for home workouts. They are relatively small, inexpensive, and suitable for a wide variety of exercises that people can perform in their own homes.\r\n"
+        "about": "Dumbbells can be useful for home workouts.\r\n"
     },
     {
         "id": "63345d45faacf9a4d144c06d",
@@ -13,7 +13,7 @@
         "age": 30,
         "time": 46,
         "name": "Weight Lifting",
-        "about": "The benefits of lifting weights include building muscle, burning body fat, strengthening your bones and joints, reducing injury risk, and improving heart health. To lift weights safely, it's important to start slow, take rest days, and always use proper form.\r\n"
+        "about": "The benefits of lifting weights include building muscle, burning body fat, strengthening your bones and joints, reducing injury risk, and improving heart health. \r\n"
     },
     {
         "id": "63345d457c220cb612584918",
@@ -21,7 +21,7 @@
         "age": 30,
         "time": 13,
         "name": "Push Up",
-        "about": "Traditional pushups are beneficial for building upper body strength. They work the triceps, pectoral muscles, and shoulders. When done with proper form, they can also strengthen the lower back and core by engaging (pulling in) the abdominal muscles.\r\n"
+        "about": "Traditional pushups are beneficial for building upper body strength. \r\n"
     },
     {
         "id": "63345d4589316f30fd9e88d1",
@@ -29,7 +29,7 @@
         "age": 34,
         "time": 11,
         "name": "Pull Up",
-        "about": "The pull-up is a foundational upper body exercise that carries many benefits — namely more back and arm muscle, pulling strength, and full-body control. It's also straightforward to do. Whether you belong to a big box gym or have your own home gym, you just need a pull-up bar. From there, you pull yourself up until the chin passes the bar. \r\n"
+        "about": "The pull-up is a foundational upper body exercise that carries many benefits — namely more back and arm muscle, pulling strength, and full-body control.  \r\n"
     },
     {
         "id": "63345d45b0d73c6e34e91270",
@@ -37,7 +37,7 @@
         "age": 31,
         "time": 48,
         "name": "Treadmill",
-        "about": "One of the most popular types of home exercise equipment is the treadmill, which provides a straightforward, efficient aerobic workout. For many, treadmills are a good choice to begin a new exercise routine because walking is well tolerated by most individuals regardless of fitness level and for most back conditions.\r\n"
+        "about": "One of the most popular types of home exercise equipment is the treadmill, which provides a straightforward, efficient aerobic workout. \r\n"
     },
     {
         "id": "63345d45d63ff8d9919b1dd3",
@@ -45,6 +45,6 @@
         "age": 31,
         "time": 46,
         "name": "Spinning Bike and Cycle",
-        "about": "Riding a stationary exercise bike is an efficient and effective way to burn calories and body fat while strengthening your heart, lungs, and muscles.\r\n"
+        "about": "Riding a stationary exercise bike is an efficient and effective way to burn calories and body fat.\r\n"
     }
 ]

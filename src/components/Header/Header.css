@@ -1,10 +1,11 @@
 .header {
     padding-left: 150px;
+    background-color: #f2f4fa;
+    padding-top: 100px;
 }
 
 .header h1 {
     color: orange;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    padding-top: 100px;
 }
