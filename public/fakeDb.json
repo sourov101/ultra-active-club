@@ -1,0 +1,50 @@
+[
+    {
+        "id": "63345d4531209fc7426816f2",
+        "picture": "https://thumbs.dreamstime.com/b/black-colour-kg-gym-dumble-fitness-wood-background-196043375.jpg",
+        "age": 23,
+        "time": 27,
+        "name": "Dumbbells",
+        "about": "Dumbbells can be useful for home workouts. They are relatively small, inexpensive, and suitable for a wide variety of exercises that people can perform in their own homes.\r\n"
+    },
+    {
+        "id": "63345d45faacf9a4d144c06d",
+        "picture": "https://media.istockphoto.com/photos/strong-man-doing-deadlift-training-in-gym-picture-id838386570?k=20&m=838386570&s=612x612&w=0&h=z-E8xcyYbaRtRe6_140ns8kAInc0g0SWpY7H7NwJfwc=",
+        "age": 30,
+        "time": 46,
+        "name": "Weight Lifting",
+        "about": "The benefits of lifting weights include building muscle, burning body fat, strengthening your bones and joints, reducing injury risk, and improving heart health. To lift weights safely, it's important to start slow, take rest days, and always use proper form.\r\n"
+    },
+    {
+        "id": "63345d457c220cb612584918",
+        "picture": "https://www.kreedon.com/wp-content/uploads/2021/08/oYDbf5hQAePHEBNZTQMXRA.jpg",
+        "age": 30,
+        "time": 13,
+        "name": "Push Up",
+        "about": "Traditional pushups are beneficial for building upper body strength. They work the triceps, pectoral muscles, and shoulders. When done with proper form, they can also strengthen the lower back and core by engaging (pulling in) the abdominal muscles.\r\n"
+    },
+    {
+        "id": "63345d4589316f30fd9e88d1",
+        "picture": "https://www.muscleandfitness.com/wp-content/uploads/2019/12/Fit-Man-Performing-A-Pullup-In-The-Park.jpg?quality=86&strip=all",
+        "age": 34,
+        "time": 11,
+        "name": "Pull Up",
+        "about": "The pull-up is a foundational upper body exercise that carries many benefits — namely more back and arm muscle, pulling strength, and full-body control. It's also straightforward to do. Whether you belong to a big box gym or have your own home gym, you just need a pull-up bar. From there, you pull yourself up until the chin passes the bar. \r\n"
+    },
+    {
+        "id": "63345d45b0d73c6e34e91270",
+        "picture": "https://i5.walmartimages.com/asr/b6e48279-2a45-4657-aa98-0c1b1392df43.0e978db955a87a6bc4d9c5e638728309.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+        "age": 31,
+        "time": 48,
+        "name": "Treadmill",
+        "about": "One of the most popular types of home exercise equipment is the treadmill, which provides a straightforward, efficient aerobic workout. For many, treadmills are a good choice to begin a new exercise routine because walking is well tolerated by most individuals regardless of fitness level and for most back conditions.\r\n"
+    },
+    {
+        "id": "63345d45d63ff8d9919b1dd3",
+        "picture": "https://aasianskyshop.com/public/uploads/all/v0yJZlpB1tUZHiEKKKTok6gKu5GjQBs24wwqhvkm.jpeg",
+        "age": 31,
+        "time": 46,
+        "name": "Spinning Bike and Cycle",
+        "about": "Riding a stationary exercise bike is an efficient and effective way to burn calories and body fat while strengthening your heart, lungs, and muscles.\r\n"
+    }
+]
