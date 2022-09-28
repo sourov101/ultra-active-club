@@ -1,0 +1,78 @@
+.activity-container {
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 7px;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f2f4fa;
+    border-radius: 7px;
+}
+
+
+
+.break {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+}
+
+.break button {
+    background-color: #f2f4fa;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.break button:hover {
+
+    background-color: orange;
+    color: white;
+}
+
+.exercise-time {
+    background-color: #f2f4fa;
+    border: none;
+    border-radius: 7px;
+
+
+}
+
+.exercise-time p {
+    padding: 15px;
+}
+
+.break-time {
+    background-color: #f2f4fa;
+    border: none;
+    border-radius: 7px;
+
+
+}
+
+.break-time p {
+    padding: 15px;
+}
+
+.activity-btn {
+
+    background-color: #5d5fef;
+    color: white;
+    width: 90%;
+    border-radius: 7px;
+    margin: 10px 20px;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.activity-btn:hover {
+    background-color: orange;
+
+}

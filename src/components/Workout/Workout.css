@@ -25,3 +25,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.workout-container button:hover {
+
+    background-color: orange;
+
+}
