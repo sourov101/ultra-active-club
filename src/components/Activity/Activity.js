@@ -21,6 +21,38 @@ const Activity = () => {
                     </div>
                 </div>
             </div>
+            <div >
+                <h3>Add a break</h3>
+
+                <div className='break'>
+                    <div>
+                        <button>10s</button>
+                    </div>
+                    <div>
+                        <button>20s</button>
+                    </div>
+                    <div>
+                        <button>30s</button>
+                    </div>
+                    <div>
+                        <button>40s</button>
+                    </div>
+                    <div>
+                        <button>50s</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <h3>Exercise Details</h3>
+                <div className='exercise-time'>
+                    <p>Exercise Time:</p>
+                </div>
+                <div className='break-time'>
+                    <p>Break Time:</p>
+                </div>
+            </div>
         </div>
     );
 };
