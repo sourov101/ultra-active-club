@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Activity.css'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Activity = (props) => {
     const { exerciseTime } = props;
@@ -60,7 +61,7 @@ const Activity = (props) => {
 
 
 
-
+    const notify = () => toast("Congratulation your activity is done!!!");
 
 
     return (
@@ -116,7 +117,7 @@ const Activity = (props) => {
                 </div>
             </div>
 
-            <button className='activity-btn'>Activity Completed</button>
+            <button onClick={notify} className='activity-btn'>Activity Completed</button><ToastContainer />
         </div>
     );
 };
