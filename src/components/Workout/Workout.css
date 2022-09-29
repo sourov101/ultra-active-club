@@ -31,3 +31,28 @@
     background-color: orange;
 
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .workout-container img {
+        display: none;
+    }
+
+    .info h4 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .workout-container button {
+
+        width: 50%;
+        border-radius: 7px;
+        margin: 5px 15px;
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+}

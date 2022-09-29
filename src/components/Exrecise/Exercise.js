@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import Workout from '../Workout/Workout';
-import './Exercise.css'
+import './Exercise.css';
+import Question from '../Q&A/Question';
+
 const Exercise = () => {
     const [exercises, setExercise] = useState([]);
     const [exerciseTime, setExerciseTime] = useState([]);
@@ -33,6 +35,11 @@ const Exercise = () => {
             <div className='activity-container'>
                 <Activity exerciseTime={exerciseTime}></Activity>
             </div>
+            <div>
+                <Question></Question>
+            </div>
+
+
         </div>
     );
 };

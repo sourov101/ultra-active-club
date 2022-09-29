@@ -3,6 +3,7 @@ import './Activity.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const Activity = (props) => {
     const { exerciseTime } = props;
     const [breakTime, setBreakTime] = useState(0);
@@ -118,7 +119,11 @@ const Activity = (props) => {
             </div>
 
             <button onClick={notify} className='activity-btn'>Activity Completed</button><ToastContainer />
+
+
+
         </div>
+
     );
 };
 

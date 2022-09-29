@@ -1,5 +1,6 @@
 import React from 'react';
-import './Workout.css'
+import './Workout.css';
+
 const Workout = (props) => {
     const { exercise, addToList } = props;
     const { picture, name, time, about, age } = exercise;
@@ -13,7 +14,11 @@ const Workout = (props) => {
                 <p>Time Required: {time}s</p>
             </div>
             <button onClick={() => addToList(exercise)}>Add to list</button>
+
+
+
         </div>
+
     );
 };
 
