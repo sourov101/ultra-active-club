@@ -2,11 +2,18 @@
     padding-left: 50px;
     background-color: #f2f4fa;
     padding-top: 50px;
-
+    display: flex;
+    align-items: center;
+    color: orange;
 }
 
+
 .header h1 {
-    color: orange;
+    padding-left: 10px;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
+}
+
+.para {
+    padding-left: 50px;
 }
