@@ -1,33 +1,65 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Activity.css'
+
+
 const Activity = (props) => {
     const { exerciseTime } = props;
     const [breakTime, setBreakTime] = useState(0);
+
+    useEffect(() => {
+        const storedTime = getStoredTime();
+        setBreakTime(storedTime);
+
+    }, [exerciseTime]);
+
     const addTen = (breakTimeValue) => {
         const newTime = breakTimeValue;
         setBreakTime(newTime);
+        const key = 'Break-Time';
+        localStorage.setItem(key, breakTimeValue);
     }
     const addTwenty = (breakTimeValue) => {
         const newTime = breakTimeValue;
         setBreakTime(newTime);
+        const key = 'Break-Time';
+        localStorage.setItem(key, breakTimeValue);
     }
     const addThirty = (breakTimeValue) => {
         const newTime = breakTimeValue;
         setBreakTime(newTime);
+        const key = 'Break-Time';
+        localStorage.setItem(key, breakTimeValue);
     }
     const addForty = (breakTimeValue) => {
         const newTime = breakTimeValue;
         setBreakTime(newTime);
+        const key = 'Break-Time';
+        localStorage.setItem(key, breakTimeValue);
     }
     const addFifty = (breakTimeValue) => {
         const newTime = breakTimeValue;
         setBreakTime(newTime);
+        const key = 'Break-Time';
+        localStorage.setItem(key, breakTimeValue);
+    }
+
+
+    const getStoredTime = (breakTimeValue) => {
+
+
+
+        const storedCart = localStorage.getItem('Break-Time', breakTimeValue);
+
+        return storedCart;
     }
 
     let time = 0;
     for (const exercise of exerciseTime) {
         time = time + exercise.time;
     }
+
+
+
 
 
 
