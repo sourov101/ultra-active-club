@@ -4,11 +4,21 @@ import Workout from '../Workout/Workout';
 import './Exercise.css'
 const Exercise = () => {
     const [exercises, setExercise] = useState([]);
+    const [exerciseTime, setExerciseTime] = useState([]);
     useEffect(() => {
         fetch('fakeDb.json')
             .then(res => res.json())
             .then(data => setExercise(data))
     }, []);
+
+
+    const addToList = (exercise) => {
+
+        const newList = [...exerciseTime, exercise];
+        setExerciseTime(newList);
+
+
+    }
 
     return (
         <div className='container'>
@@ -16,11 +26,12 @@ const Exercise = () => {
                 {
                     exercises.map(exercise => <Workout exercise={exercise}
                         key={exercise.id}
+                        addToList={addToList}
                     ></Workout>)
                 }
             </div>
             <div className='activity-container'>
-                <Activity></Activity>
+                <Activity exerciseTime={exerciseTime}></Activity>
             </div>
         </div>
     );

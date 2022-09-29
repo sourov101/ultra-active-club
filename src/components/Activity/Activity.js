@@ -1,6 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Activity.css'
-const Activity = () => {
+const Activity = (props) => {
+    const { exerciseTime } = props;
+    const [breakTime, setBreakTime] = useState(0);
+    const addTen = (breakTimeValue) => {
+        const newTime = breakTimeValue;
+        setBreakTime(newTime);
+    }
+    const addTwenty = (breakTimeValue) => {
+        const newTime = breakTimeValue;
+        setBreakTime(newTime);
+    }
+    const addThirty = (breakTimeValue) => {
+        const newTime = breakTimeValue;
+        setBreakTime(newTime);
+    }
+    const addForty = (breakTimeValue) => {
+        const newTime = breakTimeValue;
+        setBreakTime(newTime);
+    }
+    const addFifty = (breakTimeValue) => {
+        const newTime = breakTimeValue;
+        setBreakTime(newTime);
+    }
+
+    let time = 0;
+    for (const exercise of exerciseTime) {
+        time = time + exercise.time;
+    }
+
+
+
     return (
         <div className='activity-container'>
             <div >
@@ -26,19 +56,19 @@ const Activity = () => {
 
                 <div className='break'>
                     <div>
-                        <button>10s</button>
+                        <button onClick={() => addTen(10)}>10s</button>
                     </div>
                     <div>
-                        <button>20s</button>
+                        <button onClick={() => addTwenty(20)}>20s</button>
                     </div>
                     <div>
-                        <button>30s</button>
+                        <button onClick={() => addThirty(30)}>30s</button>
                     </div>
                     <div>
-                        <button>40s</button>
+                        <button onClick={() => addForty(40)}>40s</button>
                     </div>
                     <div>
-                        <button>50s</button>
+                        <button onClick={() => addFifty(50)}>50s</button>
                     </div>
 
                 </div>
@@ -47,10 +77,10 @@ const Activity = () => {
             <div>
                 <h3>Exercise Details</h3>
                 <div className='exercise-time'>
-                    <p>Exercise Time:</p>
+                    <p>Exercise Time: {time}s</p>
                 </div>
                 <div className='break-time'>
-                    <p>Break Time:</p>
+                    <p>Break Time: {breakTime}s</p>
                 </div>
             </div>
 
